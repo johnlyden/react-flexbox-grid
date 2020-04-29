@@ -1,6 +1,6 @@
 {
   "name": "react-flexbox-grid",
-  "description": "A set of React components implementing flexboxgrid with the power of CSS Modules",
+  "description": "A set of React components implementing flexboxgrid with the power of CSS Modules - forked & customized for Leaves",
   "homepage": "https://github.com/roylee0704/react-flexbox-grid",
   "version": "2.1.2",
   "main": "lib/index.js",
@@ -10,10 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/roylee0704/react-flexbox-grid.git"
-  },
-  "bugs": {
-    "url": "https://github.com/roylee0704/react-flexbox-grid/issues"
+    "url": "git://github.com/johnlyden/leaves-grid.git"
   },
   "keywords": [
     "css modules",
@@ -71,19 +68,19 @@
     "webpack-merge": "^4.1.0"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production npm run compile",
-    "clean": "rimraf ./lib",
-    "compile": "npm run compile:lib && npm run compile:dist",
-    "compile:dist": "rm -rf dist && cross-env ./node_modules/.bin/webpack",
-    "compile:lib": "rm -rf lib && ./node_modules/.bin/babel -d ./lib ./src",
-    "lint": "eslint src test",
-    "patch": "bumped release patch",
-    "prebuild": "npm run clean",
-    "prepublish": "npm run build",
-    "release": "bumped release",
-    "start": "cross-env NODE_ENV=development UV_THREADPOOL_SIZE=100 node ./server",
-    "test": "cross-env NODE_ENV=test karma start",
-    "test:watch": "cross-env NODE_ENV=test karma start --no-single-run"
+    "build": "",
+    "clean": "",
+    "compile": "",
+    "compile:dist": "",
+    "compile:lib": "",
+    "lint": "",
+    "patch": "",
+    "prebuild": "",
+    "prepublish": "",
+    "release": "",
+    "start": "",
+    "test": "",
+    "test:watch": ""
   },
   "license": "MIT",
   "peerDependencies": {
